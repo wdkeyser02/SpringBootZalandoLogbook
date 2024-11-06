@@ -6,8 +6,7 @@ public class CustomQueryFilter implements QueryFilter {
 
 	@Override
 	public String filter(String query) {
-		System.out.println("+++" + query);
-		return "Test Filter";
+		return null;
 	}
 
 }
