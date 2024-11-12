@@ -1,24 +1,24 @@
 package willydekeyser.config;
 
-import java.util.Arrays;
+//import java.util.Arrays;
 
-import org.slf4j.event.Level;
+//import org.slf4j.event.Level;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.zalando.logbook.Logbook;
-import org.zalando.logbook.core.CurlHttpLogFormatter;
-import org.zalando.logbook.core.ChunkingSink;
-import org.zalando.logbook.core.CommonsLogFormatSink;
-import org.zalando.logbook.core.CompositeSink;
-import org.zalando.logbook.core.DefaultHttpLogFormatter;
-import org.zalando.logbook.core.DefaultHttpLogWriter;
-import org.zalando.logbook.core.DefaultSink;
-import org.zalando.logbook.core.SplunkHttpLogFormatter;
-import org.zalando.logbook.core.StreamHttpLogWriter;
-import org.zalando.logbook.json.FastJsonHttpLogFormatter;
-import org.zalando.logbook.core.ExtendedLogFormatSink;
-import org.zalando.logbook.json.JsonHttpLogFormatter;
-import org.zalando.logbook.logstash.LogstashLogbackSink;
+//import org.zalando.logbook.core.CurlHttpLogFormatter;
+//import org.zalando.logbook.core.ChunkingSink;
+//import org.zalando.logbook.core.CommonsLogFormatSink;
+//import org.zalando.logbook.core.CompositeSink;
+//import org.zalando.logbook.core.DefaultHttpLogFormatter;
+//import org.zalando.logbook.core.DefaultHttpLogWriter;
+//import org.zalando.logbook.core.DefaultSink;
+//import org.zalando.logbook.core.SplunkHttpLogFormatter;
+//import org.zalando.logbook.core.StreamHttpLogWriter;
+//import org.zalando.logbook.json.FastJsonHttpLogFormatter;
+//import org.zalando.logbook.core.ExtendedLogFormatSink;
+//import org.zalando.logbook.json.JsonHttpLogFormatter;
+//import org.zalando.logbook.logstash.LogstashLogbackSink;
 
 @Configuration
 public class LogBookConfig {
